@@ -23,5 +23,20 @@ keyboardAgents.py - Provides keyboard controls.
 layout.py - allows to read layout files and store their contents.
 
 <b>The contents of search.py and searchAgents.py used for the search are as follows.</b><br>
-search.py- There are four different algorithms in the Search Problem class (depthFirstSearch,breadthFirstSearch,uniformCostSearch,aStarSearch)
+search.py- There are four different algorithms in the Search Problem class (depthFirstSearch, breadthFirstSearch, uniformCostSearch, aStarSearch)
 searchAgents.py- It includes the goal and instinctual functions of the Pacman agent. (SearchAgent, CornersProblem, cornersHeuristic, AStarCornersAgent,FoodSearchProblem, foodHeuristic,ClosestDotSearchAgent,AnyFoodSearchProblem)
+
+#Result
+![alt text](https://github.com/bakkyn/PacMan-with-search-algorithms/blob/main/results/1.png)<br>
+
+Continuous neighbor using Pacman stack because DFS is tested in small search space continues by selecting the node. For example, it moves towards the west, choosing its neighbors continuously. More Then it moves south, which is its neighbor. Searches and a cell using the BFS queue continues to search with distance. BFS is found to be better when searching in a small area. BFS for all time guarantees the optimum solution.<br>
+
+![alt text](https://github.com/bakkyn/PacMan-with-search-algorithms/blob/main/results/2.png)<br>
+As a result of the comparison, BFS performed better. BFS to give optimal results This is a disadvantage as the memory requirement grows exponentially with depth.<br>
+
+![alt text](https://github.com/bakkyn/PacMan-with-search-algorithms/blob/main/results/3.png)<br>
+Since BFS searches on a width basis in the problem of searching for food in the complex map, When searching cells, 16688 node has expanded to search process. But optimum has reached the conclusion. On the other hand, DFS used less cost but could not reach the optimum result.<br>
+![alt text](https://github.com/bakkyn/PacMan-with-search-algorithms/blob/main/results/4.png)<br>
+BFS ile optimum yola ulaşılmış ancak arama maliyeti oldukça fazla olmuştur. Bu nedenle içgüdüsel yöntem kullanılmış büyük harita üzerinde manhattan ve euclidean uzaklık formülleri kullanarak sonuçlar alınmıştır.<br>
+![alt text](https://github.com/bakkyn/PacMan-with-search-algorithms/blob/main/results/5.png)<br>
+In line with the scenarios specified, finding the shortest path that touches four corners was implemented using A *. <br>
