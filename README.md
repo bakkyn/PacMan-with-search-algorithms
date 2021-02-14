@@ -26,7 +26,7 @@ layout.py - allows to read layout files and store their contents.
 search.py- There are four different algorithms in the Search Problem class (depthFirstSearch, breadthFirstSearch, uniformCostSearch, aStarSearch)
 searchAgents.py- It includes the goal and instinctual functions of the Pacman agent. (SearchAgent, CornersProblem, cornersHeuristic, AStarCornersAgent,FoodSearchProblem, foodHeuristic,ClosestDotSearchAgent,AnyFoodSearchProblem)
 
-#Result<br>
+# Result<br>
 ![alt text](https://github.com/bakkyn/PacMan-with-search-algorithms/blob/main/results/1.png)<br>
 
 Continuous neighbor using Pacman stack because DFS is tested in small search space continues by selecting the node. For example, it moves towards the west, choosing its neighbors continuously. More Then it moves south, which is its neighbor. Searches and a cell using the BFS queue continues to search with distance. BFS is found to be better when searching in a small area. BFS for all time guarantees the optimum solution.<br>
