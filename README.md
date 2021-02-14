@@ -40,3 +40,5 @@ Since BFS searches on a width basis in the problem of searching for food in the 
 BFS ile optimum yola ulaşılmış ancak arama maliyeti oldukça fazla olmuştur. Bu nedenle içgüdüsel yöntem kullanılmış büyük harita üzerinde manhattan ve euclidean uzaklık formülleri kullanarak sonuçlar alınmıştır.<br>
 ![alt text](https://github.com/bakkyn/PacMan-with-search-algorithms/blob/main/results/5.png)<br>
 In line with the scenarios specified, finding the shortest path that touches four corners was implemented using A *. <br>
+
+https://inst.eecs.berkeley.edu/~cs188/sp10/projects/search/ [1].
